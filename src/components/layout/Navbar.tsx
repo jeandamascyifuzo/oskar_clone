@@ -14,13 +14,13 @@ import PrimaryBtn from "../buttons/PrimaryBtn";
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <header className="w-full text-gray-900 mx-auto flex items-center justify-center flex-col">
+    <header className="w-full text-gray-900 mx-auto flex items-center justify-center flex-col font-[family-name:var(--font-geist-sans)]">
       <nav className="w-full text-gray-900 mx-auto flex items-center justify-between">
         <Image src={banner} width={250} height={100} alt="" />
         <Image src={banner1} width={250} height={100} alt="" />
       </nav>
-      <nav className="w-full bg-white text-gray-900 mx-auto">
-        <div className="flex max-w-[1250px] mx-auto w-full justify-between items-center px-16">
+      <nav className="w-full bg-white text-gray-900 mx-auto shadow">
+        <div className="flex max-w-[1250px] mx-auto w-full justify-between items-center px-10">
           <Image
             src={log}
             width={34}
