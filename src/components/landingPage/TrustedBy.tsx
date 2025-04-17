@@ -18,14 +18,12 @@ const TrustedBy = () => {
   ];
 
   return (
-    <section className="max-w-[1250px] mx-auto px-10 flex w-full items-center py-10">
-      <div>
-        <h1 className="text-gray-600 text-sm pb-4">Trusted by:</h1>
-        <div className="h-full w-full flex gap-x-10">
-          {company?.map((d, index) => (
-            <Image src={d?.image} width={150} alt="" key={index} />
-          ))}
-        </div>
+    <section className="flex flex-col w-full py-10">
+      <h1 className="text-gray-600 text-sm pb-4">Trusted by:</h1>
+      <div className="h-full w-full flex gap-x-10">
+        {company?.map((d, index) => (
+          <Image src={d?.image} width={150} alt="" key={index} />
+        ))}
       </div>
     </section>
   );

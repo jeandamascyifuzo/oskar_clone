@@ -6,7 +6,7 @@ import Image2 from "@/assets/homepage-hero-left2.svg";
 
 const WelcomePage = () => {
   return (
-    <section className="max-w-[1250px] mx-auto px-10 flex w-full items-center">
+    <section className="flex w-full items-center">
       <div className="w-[45%] text-gray-600 space-y-4">
         <h1 className="font-medium text-5xl">
           The fastest way to access financial data.

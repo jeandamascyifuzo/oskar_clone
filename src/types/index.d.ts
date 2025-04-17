@@ -8,5 +8,17 @@ declare interface primaryButtonProps {
   onClick?: () => void;
   type?: "button" | "submit" | "reset";
   className?: string;
-  [key: string]: unknown; // to allow any additional props like disabled, etc.
+  [key: string]: unknown;
+}
+
+declare interface TabItem {
+  label: string;
+  content: ReactNode;
+  disabled?: boolean;
+}
+
+declare interface TabsProps {
+  tabs: TabItem[];
+  activeIndex: number;
+  handleTabChange: (index: number) => void;
 }
