@@ -11,7 +11,7 @@ const Tabs = ({ tabs, activeIndex, handleTabChange }: TabsProps) => {
             <li key={index}>
               <button
                 type="button"
-                className="inline-flex items-center px-4 rounded-lg w-full"
+                className="inline-flex items-center px-4 rounded-lg w-full text-lg"
                 onClick={() => handleTabChange(index)}
               >
                 <div className="mr-2.5 w-5 h-5 relative">

@@ -38,9 +38,9 @@ const TabCards: React.FC<dataType> = ({
           ))}
         </div>
       </div>
-      <div className="mt-4 flex flex-col relative h-60">
+      <div className="mt-10 flex flex-col relative h-60">
         <div className="flex-1">
-          <div className="mx-auto absolute -bottom-[18rem] left-10">
+          <div className="mx-auto absolute top-0 left-10">
             <Image src={mainImg || Image1} width={650} height={10} alt="" />
           </div>
         </div>
