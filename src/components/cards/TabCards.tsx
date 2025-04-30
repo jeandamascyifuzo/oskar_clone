@@ -27,7 +27,9 @@ const TabCards: React.FC<dataType> = ({
         <h3 className="font-semibold text-xl text-gray-600">{currentTab}</h3>
         <h1 className="font-medium text-3xl">{title}</h1>
         <p className="text-base">{descrition}</p>
-        <PrimaryBtn label="Learn more" type="submit" />
+        <div>
+          <PrimaryBtn label="Learn more" type="submit" />
+        </div>
       </div>
       <hr className="my-4" />
       <div className="flex items-center justify-between">

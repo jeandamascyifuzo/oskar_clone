@@ -22,3 +22,11 @@ declare interface TabsProps {
   activeIndex: number;
   handleTabChange: (index: number) => void;
 }
+
+declare interface HowBusinessType {
+  id?: number;
+  title: string;
+  subTitle: string;
+  content: string;
+  icon: string;
+}
