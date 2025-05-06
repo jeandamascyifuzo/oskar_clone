@@ -1,3 +1,4 @@
+import BuildEasier from "@/components/landingPage/BuildEasier";
 import ExploreOkraDoc from "@/components/landingPage/ExploreOkraDoc";
 import ExploreProduct from "@/components/landingPage/ExploreProduct";
 import HowOkraPower from "@/components/landingPage/HowOkraPower";
@@ -28,6 +29,11 @@ export default function Home() {
       <div className="bg-[#f4f6f8] font-[family-name:var(--font-geist-sans)] text-gray-900">
         <div className="max-w-[1250px] mx-auto px-10">
           <OkraCoverage />
+        </div>
+      </div>
+      <div className="bg-[#222c3b] font-[family-name:var(--font-geist-sans)] py-20 text-gray-900">
+        <div className="max-w-[1250px] mx-auto px-10">
+          <BuildEasier />
         </div>
       </div>
     </>

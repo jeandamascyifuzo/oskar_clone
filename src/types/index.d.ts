@@ -30,3 +30,9 @@ declare interface HowBusinessType {
   content: string;
   icon: string;
 }
+
+declare interface buildDataType {
+  id: number;
+  percentage: string;
+  name: string;
+}

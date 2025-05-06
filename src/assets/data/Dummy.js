@@ -46,3 +46,10 @@ export const dataToMap = [
         icon: Icon5,
     },
 ];
+
+export const buildData = [
+    { id: 1, percentage: "99.9%", name: "Bank uptime" },
+    { id: 2, percentage: "400+", name: "Businesses building with Okra" },
+    { id: 3, percentage: "20+", name: "Integrations options" },
+    { id: 4, percentage: "10+", name: "Compliance audits" },
+];
