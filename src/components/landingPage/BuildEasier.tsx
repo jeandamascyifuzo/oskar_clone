@@ -5,30 +5,6 @@ import React from "react";
 const BuildEasier = () => {
   return (
     <div>
-      {/* <h1 className="font-extrabold text-6xl text-center pb-10">
-        Build. Easier. Faster
-      </h1> */}
-      {/* <>
-        <h1 className="font-extrabold text-6xl text-center pb-10 animated-text">
-          Build. Easier. Faster
-        </h1>
-
-        <style jsx>{`
-          .animated-text {
-            animation: colorChange 3s ease-in-out infinite;
-          }
-
-          @keyframes colorChange {
-            0%,
-            100% {
-              color: #c0fc72;
-            }
-            50% {
-              color: #2aad86;
-            }
-          }
-        `}</style>
-      </> */}
       <h1 className="font-extrabold text-6xl text-center pb-10 animated-gradient-text">
         Build. Easier. Faster
       </h1>
